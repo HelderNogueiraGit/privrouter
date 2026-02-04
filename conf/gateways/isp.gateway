@@ -1,0 +1,8 @@
+type=wifi			#wifi or ethernet
+ifname=wlan0			#interface name to use
+dns_addr=9.9.9.9		#dns for this gateway
+ntp_addr=194.58.200.20		#ntp addr to fetch time
+
+ssid=home_wifi			#wifi ssid name
+pass=Password123!		#wifi ssid pass
+
