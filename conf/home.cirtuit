@@ -1,0 +1,8 @@
+#circuit conf file
+#joins every other conf file needed to build a internet routable connection with firewall rules, vpn (if needed) and vlan isolation
+
+gateway=isp			#external gateway conf file to use
+network=home			#vlan conf file to use
+tunnel=null			#tunnel conf file to apply (null for skipping)
+ruleset=web			#firewall rules file to apply to this circuit
+enabled=yes			#if circuit should be initialized on boot
