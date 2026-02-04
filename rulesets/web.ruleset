@@ -1,0 +1,21 @@
+#ruleset conf files contains firewall rules to be applied in a circuit
+#this example is a restricted firewall rules only for web browsing
+#you can apply same ruleset in multiple circuits
+
+#default input (drop, accept)
+def_input=drop
+
+#default output (drop, accept)
+def_output=drop
+
+#allow dns out
+allow_out=udp/%net%/%any%/53
+
+#allow http out
+allow_out=tcp/%net%/%any%/80
+
+#allow ntp out
+allow_out=udp/%net%/%any%/123
+
+#allow https out
+allow_out=tcp/%net%/%any%/443

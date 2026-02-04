@@ -1,0 +1,5 @@
+#network vlan id
+id=2		
+
+#network subnet in cidr notation
+cidr=10.10.2.254/24
