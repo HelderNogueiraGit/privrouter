@@ -1,0 +1,3 @@
+# Logs Folder
+This folder is just for logs in real time created while running privrouter
+
